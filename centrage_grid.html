@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrage avec Grid</title>
+    <style>
+         .parent{
+                display: grid; /*active le mode grid*/
+                place-items: center; /*centre horizontalement et verticalement le contenu du parent*/
+                width: 500px;
+                height: 300px;
+                background-color: #c9b3b3;
+         }
+         .bloc {
+                width: 200px;
+                height: 100px;
+                background-color: #793c3c;
+         }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="bloc">
+             Mon contenu est centré verticalement et horizontalement avec grid.
+        </div>
+    </div>
+</body>
+</html>
